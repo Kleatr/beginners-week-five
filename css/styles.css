@@ -161,6 +161,38 @@ h2 {
   width: 500px;
 }
 
-.navbar-brand{
-  color:white; 
+.about1 {
+  background-color:#8d8d8dec;
+  margin: 100px 0 25px 0;
+  color: white;
+  padding: 10px 10px 10px 30px;
+  font-size: 22px;
+  min-height:440px ;
+}
+.right {
+  float: right;
+}
+.about-image {
+  min-width: 180px;
+  max-width: 450px;
+  padding: 0 10px 0 65px;
+  width: 100%;
+}
+.about-margin {
+  margin: 25px 0 33px 0;
+}
+.img-cell {
+  width:45%;
+}
+.about-authors {
+  min-width: 100px;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 50%;
+}
+.img-cell2 {
+  width:25%;
+}
+.spacer {
+  margin: 45px;
 }
