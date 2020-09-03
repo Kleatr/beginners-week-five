@@ -144,9 +144,11 @@ h2 {
   font-size: 55px;
 }
 
-.float-left {
+.timeline p span {
   font-size: 18px;
   font-weight: bold;
   padding-right: 5px;
-  color: cornflowerblue;
+  color: #5CBDE4;
+  display:block;
 }
+
