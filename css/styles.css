@@ -1,7 +1,152 @@
 body {
-  padding-top: 5rem;
+  
+  font-family: 'Times New Roman', Times, serif;
 }
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+#carouselExampleControls img {
+  height: 700px;
+  object-fit: cover;
+}
+
+.align-center {
+text-align: center;
+}
+
+
+.btn-primary {
+  margin-bottom: 20px;
+  background-color: crimson;
+  border-color: darkblue;
+}
+
+.col-sm {
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+}
+
+#navbar2 {
+  height: 80px;
+}
+
+#up-arrow {
+  height: 30px; 
+  width: 30px;
+  float: right;
+}
+#up-arrow-link {
+  height: 60px;
+  padding-right: 40px;
+}
+.socialmediaico {
+  height: 40px; 
+  width: 40px;
+  margin-left: 7px;
+  margin-right: 5px;
+}
+.quotes {
+  border:2px solid black;
+  padding:18px 17px 17px 20px;
+  background-color: #F9F8FC;
+}
+
+.q1 {
+  font-size: 27px;
+  margin-bottom: 2px;
+}
+.q2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.registration {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mybutton {
+  background-color:#353A3F;
+  padding:6px;
+  margin:0px;
+}
+.emailform {
+  width: 420px;
+  height:38px;
+  padding:0;
+  margin:0;
+  vertical-align: middle;
+}
+.form-and-button {
+  margin: 30px auto 0px auto;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+h4 {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 55px;
+}
+
+.float-left {
+  font-size: 18px;
+  font-weight: bold;
+  padding-right: 5px;
+  color: cornflowerblue;
 }
