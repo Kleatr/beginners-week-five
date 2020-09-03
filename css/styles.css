@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+.navbar-brand{
+  color:white;
+}
+
 h1 {
   font-weight: bold;
   font-size: xx-large;
@@ -152,3 +156,11 @@ h2 {
   display:block;
 }
 
+.right img {
+  height: 375px;
+  width: 500px;
+}
+
+.navbar-brand{
+  color:white; 
+}
