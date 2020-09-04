@@ -196,3 +196,40 @@ h2 {
 .spacer {
   margin: 45px;
 }
+.spacer55 {
+  height: 55px;
+}
+.banner-help-image {
+  width:100%
+
+}
+
+.card-img-top {
+  width:255px;
+  height: 200px;
+}
+
+.fifth {
+  margin-left: 70px;
+}
+
+.sixth {
+  margin-left: 70px;
+}
+
+.kadro {
+  border:10px;
+  margin:20px;
+  background:#F9F8FC;
+  border-radius: 12px;
+  padding-top: 6px;
+  border: 1px solid black;
+  font-weight: 100;
+  color:black;
+  border-right:3px solid rgb(122, 122, 122);
+  border-bottom:3px solid rgb(122, 122, 122);
+}
+.home-pics {
+  height: 150px;
+  margin-bottom: 16stylepx;
+}
