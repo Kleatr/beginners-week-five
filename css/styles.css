@@ -7,13 +7,15 @@ body {
   text-align: center;
 }
 
-.navbar-brand{
-  color:white;
-}
-
 h1 {
   font-weight: bold;
   font-size: xx-large;
+}
+
+
+
+.full-width {
+width: 100%;
 }
 
 .navbar-brand {
@@ -29,12 +31,6 @@ h1 {
 text-align: center;
 }
 
-
-.btn-primary {
-  margin-bottom: 20px;
-  background-color: crimson;
-  border-color: darkblue;
-}
 
 .col-sm {
   font-weight: bold;
@@ -67,8 +63,22 @@ text-align: center;
   background-color: #F9F8FC;
 }
 
-.q1 {
+.q1old {
   font-size: 27px;
+}
+
+@media screen and (min-width: 601px) {
+  .q1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .q1 {
+    font-size: 16px;
+  }
+}
+.q1 {
   margin-bottom: 2px;
 }
 .q2 {
@@ -93,6 +103,7 @@ text-align: center;
 }
 .emailform {
   width: 420px;
+  max-width: 80%;
   height:38px;
   padding:0;
   margin:0;
@@ -100,6 +111,49 @@ text-align: center;
 }
 .form-and-button {
   margin: 30px auto 0px auto;
+}
+
+.about1 {
+  background-color:#8d8d8dec;
+  margin: 100px 0 25px 0;
+  color: white;
+  padding: 10px 10px 10px 30px;
+  font-size: 22px;
+  min-height:440px ;
+}
+
+.right {
+  float: right;
+}
+
+.about-image {
+  min-width: 180px;
+  max-width: 450px;
+  padding: 0 10px 0 65px;
+  width: 100%;
+}
+
+.about-margin {
+  margin: 25px 0 33px 0;
+}
+
+.img-cell {
+  width:45%;
+}
+
+.about-authors {
+  min-width: 100px;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.img-cell2 {
+  width:25%;
+}
+
+.spacer {
+  margin: 45px;
 }
 
 ul.timeline {
@@ -161,60 +215,19 @@ h2 {
   width: 500px;
 }
 
-.about1 {
-  background-color:#8d8d8dec;
-  margin: 100px 0 25px 0;
-  color: white;
-  padding: 10px 10px 10px 30px;
-  font-size: 22px;
-  min-height:440px ;
-}
-.right {
-  float: right;
-}
-.about-image {
-  min-width: 180px;
-  max-width: 450px;
-  padding: 0 10px 0 65px;
-  width: 100%;
-}
-.about-margin {
-  margin: 25px 0 33px 0;
-}
-.img-cell {
-  width:45%;
-}
-.about-authors {
-  min-width: 100px;
-  max-width: 200px;
-  width: 100%;
-  border-radius: 50%;
-}
-.img-cell2 {
-  width:25%;
-}
-.spacer {
-  margin: 45px;
-}
 .spacer55 {
   height: 55px;
 }
+
 .banner-help-image {
   width:100%
-
 }
 
-.card-img-top {
-  width:255px;
-  height: 200px;
-}
 
-.fifth {
-  margin-left: 70px;
-}
-
-.sixth {
-  margin-left: 70px;
+.help-text {
+  margin: 1px 0 25px 0;
+  height:200px;
+  color: black;
 }
 
 .kadro {
@@ -229,7 +242,131 @@ h2 {
   border-right:3px solid rgb(122, 122, 122);
   border-bottom:3px solid rgb(122, 122, 122);
 }
+
 .home-pics {
   height: 150px;
   margin-bottom: 16stylepx;
+}
+
+.say-names {
+  color: #9d0208;
+}
+
+.hist-image {
+  float:right;
+  width:40%;
+  min-width:130px;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 601px) {
+  .hist-image {
+    margin-top: 170px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hist-image {
+    margin-top: 0;
+  }
+}
+
+.hist-margin10 {
+  margin:70px 5px 0 50px;
+}
+
+#more-link {
+  padding-bottom: 60px;
+}
+#more-dates {
+  display:none;
+}
+
+.more-dates-link {
+  border: 1px solid #22c0e8;
+  padding:5px;
+  border-radius: 4px;
+  background: #4bc7e627;
+  margin-right: 50px;
+}
+
+.table-help {
+  border-spacing: 80px;
+     border-collapse: separate;   
+     width:100%;
+}
+.shadow-boxes {
+   box-shadow:5px 5px 20px grey;
+   min-height:300px;
+   font-size:1.5vw;
+   text-align:center;
+   padding: 12px 10px 10px 10px;
+}
+
+.help3-list {
+margin: 10px;
+}
+
+.more-dates-link {
+  border: 1px solid #22C0E8;
+  padding:5px;
+  border-radius: 4px;
+  background: #4bc7e627;
+  margin-right: 50px;
+}
+.help3-list {
+margin: 10px;
+}
+.help-icons {
+  max-height: 200px;
+  min-height: 20px;
+  display: block;
+  margin: 10px auto 12px auto;
+}
+@media screen and (min-width: 601px) {
+  .table-help {
+    border-spacing: 80px;
+    border-collapse: separate;
+    width:100%;
+    min-width: 200px;
+  }
+  .shadow-boxes {
+     box-shadow:5px 5px 20px grey;
+     min-height:300px;
+     font-size:1.5vw;
+     text-align:center;
+     padding: 12px 10px 10px 10px;
+  }
+  .help-icons {
+    max-height: 200px;
+    min-height: 20px;
+    display: block;
+    margin: 10px auto 12px auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .table-help {
+    border-spacing: 8px;
+    border-collapse: separate;
+    width:100%;
+    min-width: 100px;
+  }
+  .shadow-boxes {
+     box-shadow:5px 5px 20px grey;
+     min-height:300px;
+     font-size:3vw;
+     text-align:center;
+     padding: 12px 10px 10px 10px;
+  }
+  .help-icons {
+    width: 100%;
+    max-width: 100px;
+    min-width: 20px;
+    display: block;
+    margin: 2px auto 4px auto;
+  }
+}
+.recommendations {
+  margin: 30px 0 10px 0;
 }
